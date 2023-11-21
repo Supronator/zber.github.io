@@ -1,0 +1,88 @@
+html,
+body {
+   height: 100%;
+}
+div#space {
+   float: left;
+   height: 50%;
+   margin-bottom: -201px;
+   width: 1px;
+}
+div#container {
+   clear: left;
+   height: 402px;
+   margin: 0 auto;
+   position: relative;
+   width: 498px;
+}
+body {
+   background-color: #FFFFFF;
+   color: #000000;
+   font-family: Arial;
+   font-size: 13px;
+   font-weight: normal;
+   line-height: 1.1875;
+   margin: 0;
+   padding: 0;
+}
+#Login1 {
+   background-color: #FFFFFF;
+   border: 5px solid #CC0000;
+   border-radius: 15px;
+   border-spacing: 6px;
+   color: #000000;
+   font-family: Arial;
+   font-size: 19px;
+   font-style: normal;
+   font-weight: normal;
+   height: 257px;
+   text-align: left;
+   text-decoration: none;
+   width: 427px;
+}
+#Login1 td {
+   padding: 0;
+}
+#Login1 .header {
+   height: 21px;
+}
+#Login1 .label {
+   height: 21px;
+}
+#Login1 .row {
+   height: 35px;
+   text-align: left;
+}
+#Login1 .input {
+   background-color: #FFFFFF;
+   border: 1px solid #B22600;
+   border-radius: 2px;
+   box-sizing: border-box;
+   color: #000000;
+   font-family: Arial;
+   font-size: 19px;
+   font-style: normal;
+   font-weight: normal;
+   height: 35px;
+   padding: 6px 4px 6px 4px;
+   text-decoration: none;
+   width: 100%;
+}
+#Login1 .input:focus {
+   border-color: #F1937A;
+   box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(241,147,122,0.60);
+   outline: 0;
+}
+#Login1 .button {
+   -webkit-appearance: none;
+   background-color: #B22600;
+   border: 1px solid #B22600;
+   border-radius: 10px;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-size: 19px;
+   font-style: normal;
+   font-weight: normal;
+   padding: 4px 14px 4px 14px;
+   text-decoration: none;
+}
